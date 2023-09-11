@@ -2,7 +2,10 @@ const HomePage = () => {
     return (
         <div>
             <p>Photography Portfolio</p>
-            <img />
+            <div>
+                <p>Images</p>
+                <img />
+            </div>
         </div>
     )
 };
