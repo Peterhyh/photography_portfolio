@@ -1,18 +1,23 @@
 import { ParallaxBanner } from "react-scroll-parallax";
-import BO from '../app/assets/img/Bo.jpg'
+import BO from '../app/assets/img/Bo.jpg';
 
 
 const HomePage = () => {
 
 
     return (
-        <div>
-
-
+        <div >
             <ParallaxBanner
-                image='../app/assets/img/Bo.jpg'
-                speed={-15}
-                className="aspect-[2/1]"
+                className='bg-container'
+                layers={[
+                    { image: BO, speed: -20 },
+                    {
+                        speed: -15,
+                        childern: (
+                            <h1>Photography</h1>
+                        )
+                    },
+                ]}
             />
 
 
@@ -24,7 +29,7 @@ const HomePage = () => {
             <p>Testing</p>
             <p>Testing</p>
             <p>Testing</p>
-        </div>
+        </div >
 
 
     )
