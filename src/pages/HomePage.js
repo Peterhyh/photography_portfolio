@@ -3,7 +3,8 @@ import BO from '../app/assets/img/Bo.jpg';
 import Header from '../components/Header';
 import NOODLES from '../app/assets/img/Noodles.jpg';
 import NORI from '../app/assets/img/Nori.jpg';
-import Photo from '../features/home/Photo';
+import GARDEN from '../app/assets/img/japanese-tea-garden-1.jpg';
+
 
 
 const HomePage = () => {
@@ -14,7 +15,7 @@ const HomePage = () => {
             <ParallaxBanner
                 className='bg-container'
                 layers={[
-                    { image: BO, speed: -20 },
+                    { image: GARDEN, speed: -20 },
                     { speed: -15, },
                 ]}
             >
@@ -28,7 +29,9 @@ const HomePage = () => {
                         { image: NOODLES, speed: -20 },
                         { speed: -15, },
                     ]}
-                />
+                >
+                    <h1>LIGHTROOM PRESETS</h1>
+                </ParallaxBanner>
 
                 <ParallaxBanner
                     className='nori-pic'
