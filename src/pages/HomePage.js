@@ -30,7 +30,14 @@ const HomePage = () => {
                         { speed: -15, },
                     ]}
                 >
-                    <h1>LIGHTROOM PRESETS</h1>
+                    <div className='preset-title-container'>
+                        <div>
+                            <p>LIGHTROOM PRESETS</p>
+                            <h1>
+                                <a href='/'>SHOP PRESETS →</a>
+                            </h1>
+                        </div>
+                    </div>
                 </ParallaxBanner>
 
                 <ParallaxBanner

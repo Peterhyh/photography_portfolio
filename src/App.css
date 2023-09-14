@@ -94,11 +94,50 @@
 
 .noodles-pic {
   margin-right: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nori-pic {
   margin-left: 2px;
 }
+
+.preset-title-container {
+  position: relative;
+  border: 1px solid firebrick;
+  background-color: #00000032;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.preset-title-container a {
+  color: #FFCC00;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 200px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgba(255, 204, 0, 0.3);
+}
+
+.preset-title-container a:hover {
+  transition: .15s ease-out;
+  border-bottom: 1px solid rgba(174, 138, 101, .3);
+  color: rgba(216, 174, 71, .3);
+}
+
+
+
+.preset-title-container p {
+  color: #fff;
+  font-family: kiona;
+  font-size: 57px;
+}
+
 
 @font-face {
   font-family: kiona;
