@@ -3,15 +3,19 @@ import WhiteSig from '../app/assets/img/white-sig.png';
 const Header = () => {
 
     return (
-        <header>
-            <div>
-                <img src={WhiteSig} alt="Peter's white signiture" />
+        <div className='header-container'>
+            <div className='header-logo'>
+                <a href='/'>
+                    <img src={WhiteSig} alt="Peter's white signiture" />
+                </a>
             </div>
-            <a>SHOP</a>
-            <a>COLLABS</a>
-            <a>ABOUT</a>
-            <a>CONTACT</a>
-        </header>
+            <div className='header-buttons-container'>
+                <a href='/'>SHOP</a>
+                <a href='/'>COLLABS</a>
+                <a href='/'>ABOUT</a>
+                <a href='/'>CONTACT</a>
+            </div>
+        </div>
     );
 };
 
