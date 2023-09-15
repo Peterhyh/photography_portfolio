@@ -48,6 +48,13 @@ const HomePage = () => {
                     ]}
                 />
             </div >
+            <ParallaxBanner
+                className='bo-pic'
+                layers={[
+                    { image: BO, speed: -20 },
+                    { speed: -15, },
+                ]}
+            ></ParallaxBanner>
         </div >
 
 

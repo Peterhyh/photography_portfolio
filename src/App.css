@@ -138,6 +138,11 @@
   font-size: 57px;
 }
 
+.bo-pic {
+  width: 100%;
+  height: 75vh;
+}
+
 
 @font-face {
   font-family: kiona;
