@@ -54,7 +54,7 @@ const HomePage = () => {
                     { image: BO, speed: -20 },
                     { speed: -15, },
                 ]}
-            ></ParallaxBanner>
+            />
         </div >
 
 
