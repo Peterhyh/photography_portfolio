@@ -52,7 +52,7 @@ const HomePage = () => {
                 className='bo-pic'
                 layers={[
                     { image: BO, speed: -20 },
-                    { speed: -15, },
+                    { speed: -10, },
                 ]}
             />
         </div >
