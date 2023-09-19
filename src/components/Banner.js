@@ -8,7 +8,9 @@ const Banner = (props) => {
                 { image: props.photo, speed: -20 },
                 { speed: -15, },
             ]}
-        />
+        >
+            {props.content ? (props.content) : null}
+        </ParallaxBanner>
 
     );
 };

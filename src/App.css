@@ -105,14 +105,13 @@
 
 .preset-title-container {
   position: relative;
-  border: 1px solid firebrick;
   background-color: #00000032;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  padding-left: 100px;
 }
 
 .preset-title-container a {
