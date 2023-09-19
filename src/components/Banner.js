@@ -1,16 +1,16 @@
 import { ParallaxBanner } from "react-scroll-parallax";
 
-const Parallax = (img) => {
+const Banner = (props) => {
     return (
         <ParallaxBanner
-            className={img}
+            className={props.css}
             layers={[
-                { image: BO, speed: -20 },
+                { image: props.photo, speed: -20 },
                 { speed: -15, },
             ]}
         />
 
-    )
+    );
 };
 
-export default Parallax;
+export default Banner;

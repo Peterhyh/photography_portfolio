@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import NOODLES from '../app/assets/img/Noodles.jpg';
 import NORI from '../app/assets/img/Nori.jpg';
 import GARDEN from '../app/assets/img/japanese-tea-garden-1.jpg';
+import Banner from '../components/Banner';
 
 
 
@@ -23,13 +24,7 @@ const HomePage = () => {
             </ParallaxBanner>
             <div className='home-second-section'>
 
-                <ParallaxBanner
-                    className='noodles-pic'
-                    layers={[
-                        { image: NOODLES, speed: -20 },
-                        { speed: -15, },
-                    ]}
-                >
+                <Banner css='noodles-pic' photo={NOODLES} >
                     <div className='preset-title-container'>
                         <div>
                             <p>LIGHTROOM PRESETS</p>
@@ -38,23 +33,10 @@ const HomePage = () => {
                             </h1>
                         </div>
                     </div>
-                </ParallaxBanner>
-
-                <ParallaxBanner
-                    className='nori-pic'
-                    layers={[
-                        { image: NORI, speed: -20 },
-                        { speed: -15, },
-                    ]}
-                />
+                </Banner>
+                <Banner css='nori-pic' photo={NORI} />
             </div >
-            <ParallaxBanner
-                className='bo-pic'
-                layers={[
-                    { image: BO, speed: -20 },
-                    { speed: -15, },
-                ]}
-            />
+            <Banner css='bo-pic' photo={BO} />
         </div >
 
 
